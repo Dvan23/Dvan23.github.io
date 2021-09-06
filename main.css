@@ -1,5 +1,5 @@
 *{margin: 0mm; padding: 0mm; }
-.container{display: flex;width: 100%; height:620px;}
+.container{display: flex;width: 100%; height:650px;}
 .blue{background-image: url("rocket\ small.png"),linear-gradient(to right,rgba(0,255,255,0),rgba(0,255,255,1)); 
     width:50%; 
  background-position: center; background-repeat: no-repeat;}
@@ -17,4 +17,5 @@ p{text-align: center;}
 @media (max-width:500px){
     .blue{display:none;}
     .black{width:100%;}
+    .form{margin:40px 10px;}
 }

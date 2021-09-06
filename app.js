@@ -13,7 +13,7 @@ function verify(e){
   if(username.value.length>=8&&password.value.length>=6&&password.value===confirm.value){
     black.innerHTML =`<h2 style="color:green; text-align:center;margin:20px;">! Congratulations !</h2>
     <h1 style="color:white; text-align:center;margin:20px;">We have received your request</h1>
-    <p><img src ="astronaut.jpg" style="border-radius:50%; margin:30px"></p>`
+    <p><img src ="astronaut.jpg" style="border-radius:50%; margin:30px width:250px; height:250px;"></p>`
    
   }
   else{
